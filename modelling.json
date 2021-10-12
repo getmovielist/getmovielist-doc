@@ -1,0 +1,98 @@
+{
+  "name": "getmovielist",
+  "objects": [
+    {
+      "name": "Bookmark",
+      "attributes": [
+        {
+          "name": "id",
+          "type": "Int",
+          "index": "PRIMARY"
+        },
+        {
+          "name": "movie",
+          "type": "Movie"
+        },
+        {
+          "name": "user",
+          "type": "User"
+        }
+      ]
+    },
+    {
+      "name": "User",
+      "attributes": [
+        {
+          "name": "id",
+          "type": "Int",
+          "index": "PRIMARY"
+        },
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "login",
+          "type": "string"
+        },
+        {
+          "name": "password",
+          "type": "string"
+        },
+        {
+          "name": "level",
+          "type": "Int"
+        }
+      ]
+    },
+    {
+      "name": "Watched",
+      "attributes": [
+        {
+          "name": "id",
+          "type": "Int",
+          "index": "PRIMARY"
+        },
+        {
+          "name": "movie",
+          "type": "Movie"
+        },
+        {
+          "name": "user",
+          "type": "User"
+        }
+      ]
+    },
+    {
+      "nome": "Movie",
+      "attributes": [
+        {
+          "nome": "id",
+          "type": "string",
+          "index": "PRIMARY"
+        },
+        {
+          "nome": "idThemoviedb",
+          "type": "Int"
+        },
+        {
+         
+          "nome": "originalTitle",
+          "type": "string"
+        },
+        {
+          "nome": "releaseDate",
+          "type": "date"
+        },
+        {
+          "nome": "posterPath",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}
