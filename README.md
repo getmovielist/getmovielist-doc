@@ -68,10 +68,10 @@ watched : {
 
 
 
-<a href="https://github.com/getmovielist/getmovielist-doc/modelling.json">Detailed Data Modeling</a>
+<a href="https://github.com/getmovielist/getmovielist-doc/blob/main/modelling.json">Detailed Data Modeling</a>
 
 
-<a href="https://github.com/getmovielist/getmovielist-doc/diagram.png">Data Base Diagram</a>
+<a href="https://github.com/getmovielist/getmovielist-doc/blob/main/diagram.pngg">Data Base Diagram</a>
 
 
-<a href="https://github.com/getmovielist/getmovielist-doc/create.sql">SQL CREATE</a>
+<a href="https://github.com/getmovielist/getmovielist-doc/blob/main/create.sql">SQL CREATE</a>
